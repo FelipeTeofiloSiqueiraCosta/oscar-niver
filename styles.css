@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ff6347;
+}
+
+.subtitle {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #008cba;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f5f;
+}
+
+#meme-container {
+    margin-top: 20px;
+}
+
+#meme {
+    width: 100%;
+    max-width: 400px;
+    max-height: 400px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#birthday-message{
+    max-width: 400px;
+}
